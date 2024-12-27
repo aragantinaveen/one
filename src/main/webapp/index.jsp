@@ -1,9 +1,9 @@
 <html>
 <head>
 <style>
-# id1 { color:red;}
-# id2 { color:green;}
-# id3 { color:pink;}
+#id1 {color:red;}
+#id2 {color:green;}
+#id3 {color:pink;}
 </style>
 
 </head>

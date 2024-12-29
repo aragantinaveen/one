@@ -1,8 +1,10 @@
-/* Reset some default styles */
+{html}
+{head}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+{/head}
 }
 
 body {
@@ -49,3 +51,4 @@ footer {
     color: #777;
     font-size: 0.9em;
 }
+{/html}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Poster</title>
+    <title>naveen araganti</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
         <div class="movie-poster" id="moviePoster">
             <img src="https://via.placeholder.com/300x450" alt="Movie Poster" class="poster-image">
             <div class="poster-overlay">
-                <h2>Movie Title</h2>
+                <h2>naveen araganti</h2>
                 <p>Genre: Action, Adventure</p>
                 <p>Release Date: 2024-12-31</p>
                 <p>Click to view details...</p>

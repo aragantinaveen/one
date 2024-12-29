@@ -1,54 +1,33 @@
-{html}
-{head}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-{/head}
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Poster</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-}
+    <div class="movie-poster-container">
+        <div class="movie-poster" id="moviePoster">
+            <img src="https://via.placeholder.com/300x450" alt="Movie Poster" class="poster-image">
+            <div class="poster-overlay">
+                <h2>Movie Title</h2>
+                <p>Genre: Action, Adventure</p>
+                <p>Release Date: 2024-12-31</p>
+                <p>Click to view details...</p>
+            </div>
+        </div>
+    </div>
 
-header {
-    background-color: #007BFF;
-    width: 100%;
-    padding: 20px;
-    color: white;
-    font-size: 2em;
-}
+    <div class="movie-details" id="movieDetails">
+        <h2>Movie Title</h2>
+        <p><strong>Director:</strong> John Doe</p>
+        <p><strong>Cast:</strong> Actor A, Actor B, Actor C</p>
+        <p><strong>Synopsis:</strong> A thrilling action-adventure story about the fight between good and evil, set in a futuristic world.</p>
+        <button id="closeDetails">Close Details</button>
+    </div>
 
-.content {
-    padding: 20px;
-}
-
-button {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #218838;
-}
-
-footer {
-    position: fixed;
-    bottom: 10px;
-    color: #777;
-    font-size: 0.9em;
-}
-{/html}
+    <script src="script.js"></script>
+</body>
+</html>

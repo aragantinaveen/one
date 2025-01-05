@@ -8,12 +8,12 @@
 </head>
 <body>
 
-    <div class="LAXMI">
+    <div class="gabber sing">
         <div class="movie-poster" id="movie-poster">
             <img src="https://via.placeholder.com/300x450" alt="Movie Poster" class="poster-image">
             <div class="poster-overlay">
-                <h2>VENKATESH</h2>
-                <p>VENKY MAMA</p>
+                <h2>powerstar</h2>
+                <p>pspk</p>
                 <p>Release Date: 2024-12-31</p>
                 <p>Click to view details...</p>
             </div>

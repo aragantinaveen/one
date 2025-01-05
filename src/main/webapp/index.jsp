@@ -21,8 +21,8 @@
     </div>
 
     <div class="movie-details" id="movieDetails">
-        <h2>LAXMI</h2>
-        <p><strong>Director:</strong>MANISHARMA</p>
+        <h2>gabber sing</h2>
+        <p><strong>Director:</strong>vv vinayak</p>
         <p><strong>Cast:</strong> Actor A, Actor B, Actor C</p>
         <p><strong>Synopsis:</strong> A thrilling action-adventure story about the fight between good and evil, set in a futuristic world.</p>
         <button id="closeDetails">Close Details</button>

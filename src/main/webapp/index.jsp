@@ -66,7 +66,7 @@
 <div class="movie-list">
     <div class="movie-card">
         <img src="https://via.placeholder.com/250x375" alt="Movie Poster">
-        <h3>Movie Title 1</h3>
+        <h3>GABBER SING</h3>
         <div class="showtimes">
             <p>Showtimes:</p>
             <p>1:00 PM | 4:00 PM | 7:00 PM</p>
@@ -76,7 +76,7 @@
 
     <div class="movie-card">
         <img src="https://via.placeholder.com/250x375" alt="Movie Poster">
-        <h3>Movie Title 2</h3>
+        <h3>VAKEEL SAAB</h3>
         <div class="showtimes">
             <p>Showtimes:</p>
             <p>2:00 PM | 5:00 PM | 8:00 PM</p>
@@ -86,7 +86,7 @@
 
     <div class="movie-card">
         <img src="https://via.placeholder.com/250x375" alt="Movie Poster">
-        <h3>Movie Title 3</h3>
+        <h3>OG</h3>
         <div class="showtimes">
             <p>Showtimes:</p>
             <p>12:30 PM | 3:30 PM | 6:30 PM</p>

@@ -3,31 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>megastar</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>BookMyShow - Movie Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff5a5f;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .movie-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .movie-card {
+            background-color: white;
+            width: 250px;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .movie-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .movie-card h3 {
+            text-align: center;
+            color: #333;
+        }
+        .showtimes {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .btn-book {
+            background-color: #ff5a5f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-book:hover {
+            background-color: #e04e4e;
+        }
+    </style>
 </head>
 <body>
 
-    <div class="indra">
-        <div class="movie-poster" id="movie-poster">
-          ##  <img src="https://via.placeholder.com/300x450" alt="Movie Poster" class="poster-image"> ##
-            <div class="poster-overlay">
-                <h2>chiranjeevi</h2>
-                <p>megastar</p>
-                <p>Release Date: 2024-12-31</p>
-                <p>Click to view details...</p>
-            </div>
+<header>
+    <h1>Welcome to BookMyShow</h1>
+    <p>Book your movie tickets now!</p>
+</header>
+
+<div class="movie-list">
+    <div class="movie-card">
+        <img src="https://via.placeholder.com/250x375" alt="Movie Poster">
+        <h3>Movie Title 1</h3>
+        <div class="showtimes">
+            <p>Showtimes:</p>
+            <p>1:00 PM | 4:00 PM | 7:00 PM</p>
+            <button class="btn-book">Book Now</button>
         </div>
     </div>
 
-    <div class="movie-details" id="movieDetails">
-        <h2>gabber sing</h2>
-        <p><strong>Director:</strong>ss rajamouli</p>
-        <p><strong>Cast:</strong> Actor A, Actor B, Actor C</p>
-        <p><strong>Synopsis:</strong> A thrilling action-adventure story about the fight between good and evil, set in a futuristic world.</p>
-        <button id="closeDetails">Close Details</button>
+    <div class="movie-card">
+        <img src="https://via.placeholder.com/250x375" alt="Movie Poster">
+        <h3>Movie Title 2</h3>
+        <div class="showtimes">
+            <p>Showtimes:</p>
+            <p>2:00 PM | 5:00 PM | 8:00 PM</p>
+            <button class="btn-book">Book Now</button>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <div class="movie-card">
+        <img src="https://via.placeholder.com/250x375" alt="Movie Poster">
+        <h3>Movie Title 3</h3>
+        <div class="showtimes">
+            <p>Showtimes:</p>
+            <p>12:30 PM | 3:30 PM | 6:30 PM</p>
+            <button class="btn-book">Book Now</button>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

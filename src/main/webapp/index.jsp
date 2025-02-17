@@ -76,7 +76,7 @@
 
     <div class="movie-card">
         <img src="https://via.placeholder.com/250x375" alt="Movie Poster">
-        <h3>VAKEEL SAAB</h3>
+        <h3>HARI HARA VEERAAMLLU</h3>
         <div class="showtimes">
             <p>Showtimes:</p>
             <p>2:00 PM | 5:00 PM | 8:00 PM</p>
